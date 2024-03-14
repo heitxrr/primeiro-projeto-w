@@ -10,48 +10,139 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width:device-width,initial-scale=1.0" />
     <title>Página Básica</title>
+
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      #cabecalho > h1{
+        text-align: center;
+            color: #fff;
+            background-color: #100000 !important;
+            padding: 20px 0;
+            box-shadow: 4px 3px 5px #41416d;
+            border-radius: 5px;
+            font-size: 64px;
+      }
+
+      ul{
+        list-style: none;
+        width: 135%;
+      }
+
+      #cabecalho nav{
+        margin: 15px 0;
+      }
+    
+      #cabecalho  li {
+        display: inline-block;
+        margin: 0  8%;
+      }
+
+     #cabecalho  li img {
+      display: block;
+      width: 50%;
+      min-width: 10%;
+      }
+      
+
+    </style>
+
   </head>
   <!-- segundo filho do html = body -->
   <body>
     <div class="container">
       <!-- O container é uma div que serve como contêiner geral para todo o conteúdo da página. -->
-      <header class="cabecalho">
-        <h1
-          style="
-            text-align: center;
-            color: white;
-            background-color: black;
-            padding: 20px 0;
-            box-shadow: 4px 3px 5px #41416d;
-            border-radius: 5px;
-            font-size: 64px;
-          "
-        >
-          Minha Página
-        </h1>
+      <header id="cabecalho">
+        <h1>Minha Página</h1>
         <nav>
           <ul>
-            <li><a href="./paginas/help.html"> <img src="./img/help.png" alt="Caixa de texto com uma interrogação" width="3%"> </a></li>
-            <li><a href="./paginas/about.html"> <img src="./img/about.png" alt="letra i em um circulo" width="3%"> </a></li>
-            <li><a href="#contact"> <img src="./img/contact.png" alt="Telefone" width="3%"> </a></li>
+            <li>
+              <a href="./paginas/help.html">
+                <img
+                  src="./img/help.png"
+                  alt="Caixa de texto com uma Interrogação."
+                />
+              </a>
+            </li>
+            <li>
+              <a href="./paginas/about.html">
+                <img src="./img/about.png" alt="Letra i em um circulo." />
+              </a>
+            </li>
+            <li>
+              <a href="#contact"> <img src="./img/contact.png" alt="Envelope de carta." /> </a>
+            </li>
           </ul>
         </nav>
-      </header>
+      </header> 
+
+      <hr />
 
       <section id="conteudo-principal">
         <div>
-          <h2>HELP</h2>
+          <h1>HELP</h1>
           <p>
-            Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa saepe consequatur quasi accusantium, commodi ducimus consectetur eveniet quas quisquam excepturi autem dolores minus! Ipsa doloremque sit fugit nulla totam distinctio similique ut architecto laborum dignissimos, officia ipsum? Sequi porro illo provident? Ipsum architecto, recusandae corrupti autem sequi tempora, veritatis molestiae qui vero, voluptatem quis cum maiores suscipit? Modi exercitationem, nesciunt, sapiente ipsam laboriosam omnis incidunt iste earum alias soluta molestias sequi a. Architecto excepturi optio quidem sint temporibus ipsum quisquam maxime harum minima impedit nisi reprehenderit fugiat sit, corporis nam error, laudantium voluptatibus sapiente dolorem tempore libero officiis fugit odit quia? Dolorem ratione distinctio, repudiandae placeat beatae dicta, aspernatur, sunt omnis excepturi voluptate libero labore asperiores dolores! Nihil repudiandae deserunt provident facere rerum. Eaque, aliquid! Impedit, cum explicabo vel quas error optio blanditiis ullam fuga asperiores quos nesciunt officiis neque distinctio nostrum iste, esse beatae totam earum praesentium laboriosam doloremque accusamus deleniti sit. Tempora fugit fuga vero unde obcaecati aut consequatur quam id officiis molestias, fugiat magni nesciunt cumque repellendus nobis optio quis. Consequatur corrupti animi sapiente quos suscipit tempora voluptas dicta totam, eius officia, et doloribus, dignissimos enim quibusdam fugiat ratione ad commodi expedita. Quia suscipit vel officiis libero dignissimos sint vitae aspernatur perspiciatis culpa voluptate corporis at laboriosam quis commodi, animi odit reprehenderit quisquam officia labore harum minima adipisci, assumenda tempora? Doloremque officia reprehenderit aperiam illum reiciendis velit. Nobis officia culpa, veniam ipsa nam eos corrupti fuga id ab possimus magni earum commodi quidem numquam voluptate nostrum impedit magnam iure! Impedit consequuntur id sunt voluptatibus, hic quia fugiat unde assumenda tempora perferendis, nesciunt sequi repudiandae cum excepturi adipisci, ratione a. Fuga velit quos officia dolor reiciendis minima sapiente ad praesentium cumque repellendus ipsam et assumenda ipsa magni eaque, doloremque ea placeat, commodi similique mollitia rerum nam eveniet reprehenderit.
+            Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            ipsam vero animi corporis modi quos, provident alias. Dicta ea
+            laudantium quaerat vitae reiciendis iusto ipsam alias dolores dolor
+            quis sint officia praesentium quos accusantium nisi, ipsum ipsa est
+            a voluptatibus aspernatur! Nihil consequatur vitae ullam eius modi,
+            ipsa repellendus veniam, quaerat unde quisquam, nostrum libero dicta
+            voluptatem temporibus. Nihil, hic! Esse laborum, obcaecati aut
+            corrupti maxime ullam saepe? Dolor minima tempore ipsam ducimus enim
+            odio quas? Nesciunt, aperiam. Voluptas autem recusandae at est
+            facilis nisi ducimus tempore eum odio maxime. Doloremque
+            necessitatibus voluptate, amet laborum laudantium ex expedita ad
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            itaque quia repellendus, assumenda quae rerum ab blanditiis ipsa
+            reprehenderit corporis fuga, asperiores dolorem. Expedita tempore
+            quisquam minus vitae possimus similique voluptates consequatur hic
+            laborum id asperiores architecto facilis accusamus alias laboriosam
+            aperiam, impedit provident. Sit culpa consequatur pariatur alias
+            deserunt, esse nulla ratione vitae cum ad earum, odio nobis
+            incidunt? Est fugiat alias sint, maxime, corrupti dolore quas quo
+            eum expedita perspiciatis reiciendis ipsum praesentium itaque
+            dignissimos magni vero, fuga aliquam possimus. Corrupti odit
+            similique magnam delectus iste autem error. Enim natus excepturi
+            exercitationem non quod, aspernatur blanditiis autem dignissimos
+            explicabo corporis id ad similique eos soluta!
           </p>
-          <a href="#">Mais...</a>
+          <a href="./paginas/help.html">Mais...</a>
         </div>
         <div>
           <h2>ABOUT</h2>
           <p>
-            About - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum quas cum vero assumenda eum consectetur eos officia dignissimos adipisci in odit iusto debitis aut ducimus corporis ea maiores, commodi nisi odio expedita! Consectetur tempora vel adipisci suscipit sequi enim, culpa ut tempore reprehenderit odio saepe quod corrupti. Magnam consectetur nostrum ab quisquam temporibus, blanditiis, earum quos dolorem nisi cum sapiente repellat porro sed nobis error commodi consequuntur. Dolore veritatis laudantium architecto porro aperiam quam modi voluptate dignissimos praesentium nihil totam repellat cupiditate molestiae ad eos culpa, ipsum beatae, voluptates mollitia similique soluta minima temporibus, doloremque laboriosam! Velit neque aliquam, nihil et, beatae asperiores labore iste libero nisi maxime deleniti, aspernatur aliquid nemo animi itaque placeat illum reprehenderit quae culpa voluptatibus! Doloremque accusamus dolorem recusandae esse quidem quibusdam ex mollitia atque optio ducimus iure debitis rem laborum velit voluptas ut ratione beatae officia dicta, repellendus assumenda distinctio! Qui nobis fugiat a earum voluptatum harum rem aliquam, eos perspiciatis repellendus ea laboriosam eaque, nam possimus repudiandae enim quis deserunt suscipit obcaecati dolorum quidem ipsa eius culpa. Cum saepe id temporibus deleniti repellat incidunt laudantium amet, porro sed autem excepturi sint, facere esse molestiae commodi, suscipit deserunt iure libero cumque est eum asperiores dolores similique. Minus voluptates perferendis maxime fugiat atque tempore voluptatum eaque animi nesciunt quibusdam reprehenderit necessitatibus debitis saepe fuga quas soluta corporis, consequuntur a esse facere omnis culpa! Dolor dolorum saepe quas ea sunt? Officia in reprehenderit facere. Eaque tempore voluptatem officiis, nisi magnam necessitatibus expedita asperiores libero dicta a amet nesciunt, nobis, vitae dolor reiciendis blanditiis in. Necessitatibus blanditiis tempora provident magni laboriosam vel? Sit minima ut at nemo voluptates doloribus quibusdam numquam perferendis hic qui dolorem sequi pariatur, totam voluptatum omnis, veritatis fugiat ullam placeat, expedita reprehenderit impedit? Asperiores tenetur quia minima iusto voluptatum voluptates nobis odio nemo!
+            About - Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+            maxime repellat animi iste aliquid! Magni quibusdam quae sequi
+            accusantium unde quis, sunt enim illo quia inventore error voluptas
+            aspernatur hic tenetur ex provident culpa tempore vitae in?
+            Molestiae unde minima harum obcaecati? Cumque architecto velit
+            debitis officiis. Alias, repellendus est. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ad, ea quae, incidunt nostrum quod
+            impedit reiciendis, voluptatibus tenetur repellendus aliquid nemo
+            non. Exercitationem ullam libero consectetur assumenda sed odio
+            autem tenetur, quod vero. Debitis excepturi sint odit nostrum at
+            dolorum iste officiis vitae modi quia tempore quibusdam eius odio
+            asperiores dolores minima tempora suscipit sed exercitationem
+            accusantium reprehenderit deserunt, dicta id! Excepturi, inventore
+            sunt in et, ab laudantium magni dicta, facilis incidunt aspernatur
+            labore modi assumenda soluta quisquam accusamus nisi libero
+            voluptatibus asperiores voluptate architecto laboriosam! Doloribus
+            voluptatibus asperiores minus ad voluptatum dicta necessitatibus sed
+            atque sapiente explicabo earum quibusdam veritatis eum amet aperiam
+            fugiat nam, obcaecati officiis. Eligendi temporibus ad atque hic
+            blanditiis iure corrupti placeat fuga quos, ut reiciendis quibusdam
+            culpa, inventore officiis modi obcaecati. Fugit ex atque, blanditiis
+            debitis dolores maxime vel corrupti praesentium libero, ipsum earum
+            sapiente. Molestias tempore excepturi quia aut vitae nulla, pariatur
+            illum! Distinctio exercitationem at quaerat! Quia vitae nemo,
+            ducimus sint esse repellendus enim sapiente?
           </p>
-          <a href="#">Mais...</a>
+          <a href="./paginas/about.html">Mais...</a>
         </div>
         <div id="contact">
           <h2>CONTACT</h2>
